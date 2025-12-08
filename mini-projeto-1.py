@@ -4,11 +4,12 @@
 # Perguntar a cidade onde o usuário mora.
 # No final, imprimir uma ficha de cadastro completa com todos os dados coletados.
 
+print('\n--- Bem-vindo ao nosso sistema de cadastro ---')
 nome_usuario = input('Digite seu nome: ')
 comida_favorita = input('Digite sua comida favorita: ')
 cidade_usuario = input('Digite a cidade onde você mora: ')
 
 print('\n--- Sua ficha de cadastro ---')
-print(f'O nome do usuário é {nome_usuario}.')
-print(f'A cidade que que o {nome_usuario} mora é {cidade_usuario}.')
-print(f'A comida favorita do {nome_usuario} é {comida_favorita}.')
+print(f'Nome: {nome_usuario}')
+print(f'Comida favorita: {comida_favorita}')
+print(f'Cidade: {cidade_usuario}')
